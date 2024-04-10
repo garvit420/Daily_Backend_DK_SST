@@ -12,7 +12,6 @@ public class ProductServiceSstApplication {
         SpringApplication.run(ProductServiceSstApplication.class, args);
 
         Product product = new Product();
-        System.out.println("This line I've added to test forking and cloning");
     }
 
 }
